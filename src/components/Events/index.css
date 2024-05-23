@@ -30,3 +30,30 @@
   margin-bottom: 0px;
   padding-left: 0px;
 }
+
+/*.LeftContainer {
+  background-color: #475569;
+  background-size: cover;
+  color: #ffffff;
+  width: 60vw;
+  padding-left: 20px;
+}
+
+.EventContainer {
+  display: flex;
+  height: auto;
+  font-family: 'Roboto';
+}
+
+.UList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.eventName {
+  margin: 20px;
+  margin-left: 50px;
+  font-size: 40px;
+  font-weight: 500;
+}
+*/
