@@ -21,3 +21,25 @@ const EventItem = props => {
 }
 
 export default EventItem
+
+/*import './index.css'
+
+const EventItem = props => {
+  const {Details, CheckStatus} = props
+  const {id, imageUrl, name, location, registrationStatus} = Details
+  const DisplayStatus = () => {
+    CheckStatus(registrationStatus)
+  }
+  return (
+    <li key={id}>
+      <button className="EachEvent" type="button" onClick={DisplayStatus}>
+        <img src={imageUrl} alt="event" className="eachImg" />
+        <p className="name">{name}</p>
+        <p className="location">{location}</p>
+      </button>
+    </li>
+  )
+}
+
+export default EventItem
+*/
